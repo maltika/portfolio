@@ -1,0 +1,14 @@
+
+export const HeroSection = () => {
+    return (
+    <section 
+        id="hero" 
+        className="relative min-h-screen flex-col items-center justify-center px-4"
+    >
+        <div className="container max-w-4xl mx-auto ">
+
+        </div>
+
+
+    </section>);
+}
