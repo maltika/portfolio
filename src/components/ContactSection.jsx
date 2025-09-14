@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import { Facebook, Instagram, Mail, MapPin, Phone, Send } from "lucide-react"
+import { Facebook, Figma, Github, Instagram, Mail, MapPin, Phone, Send } from "lucide-react"
 import { cn } from '@/lib/utils'
 import emailjs from '@emailjs/browser'
 import toast, { Toaster } from 'react-hot-toast'
@@ -55,13 +55,13 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           {/* Contact Info */}
-          <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+          <div className="space-y-8 ">
+            <h3 className="text-2xl font-semibold mb-6 ml-8">Contact Information</h3>
 
-            <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+            <div className="space-y-8">
+              <div className="flex items-start space-x-4 mt-10 justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
@@ -75,41 +75,44 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-5 justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:000000000"
+                    href="tel:0625465700"
                     className="text-muted-foreground hover:text-primary transition-colors">
-                    000-000-000
+                    062-546-5700
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">
+                  <a className="text-muted-foreground hover:text-primary transition-colors ">
                     40 Nonthaburi 11000
                   </a>
                 </div>
               </div>
             </div>
-
-            <div className="pt-8">
+            {/* Contact w/ me */}
+            <div className="pt-8 ml-8">
               <h4 className="font-medium mb-4">Contact With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
+                <a href="https://www.facebook.com/maltika.bn/" target="_blank">
                   <Facebook />
+                </a>
+                <a href="https://github.com/maltika" target="_blank">
+                  <Github />
+                </a>
+                <a href="https://www.figma.com/team_invite/redeem/gNC6e3Mi1irtkwKUqwBw1G" target="_blank">
+                  <Figma />
                 </a>
               </div>
             </div>
