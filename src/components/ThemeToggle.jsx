@@ -1,15 +1,20 @@
+// src/components/ThemeToggle.tsx
+
+
 import { Moon, Sun } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 export const ThemeToggle = () => {
-    // อ่านจาก localStorage ทันทีเพื่อให้ state เริ่มตรงกับ theme จริง
+    // อ่านจาก localStorage
     const storedTheme = localStorage.getItem("theme");
-    const defaultDark = storedTheme !== "light";
+
+    // ถ้าไม่มีค่าเก็บไว้ ให้ default เป็น dark
+    const defaultDark = storedTheme ? storedTheme === "dark" : true;
 
     const [isDarkMode, setIsDarkMode] = useState(defaultDark);
 
-    // ตั้งค่า dark mode ทันที (ไม่ต้องใช้ useEffect)
+    // ตั้งค่า dark mode ทันที
     if (defaultDark) {
         document.documentElement.classList.add("dark");
     } else {
