@@ -1,34 +1,20 @@
-// src/components/ThemeToggle.tsx
-
-
 import { Moon, Sun } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 export const ThemeToggle = () => {
-    // อ่านจาก localStorage
-    const storedTheme = localStorage.getItem("theme");
+    // เริ่มต้น dark mode ทุกครั้งที่โหลดเว็บ
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
-    // ถ้าไม่มีค่าเก็บไว้ ให้ default เป็น dark
-    const defaultDark = storedTheme ? storedTheme === "dark" : true;
-
-    const [isDarkMode, setIsDarkMode] = useState(defaultDark);
-
-    // ตั้งค่า dark mode ทันที
-    if (defaultDark) {
-        document.documentElement.classList.add("dark");
-    } else {
-        document.documentElement.classList.remove("dark");
-    }
+    // ตั้งค่า dark mode ทันทีตอน render
+    document.documentElement.classList.add("dark");
 
     const toggleTheme = () => {
         if (isDarkMode) {
             document.documentElement.classList.remove("dark");
-            // localStorage.setItem("theme", "light");
             setIsDarkMode(false);
         } else {
             document.documentElement.classList.add("dark");
-            // localStorage.setItem("theme", "dark");
             setIsDarkMode(true);
         }
     };
@@ -41,11 +27,11 @@ export const ThemeToggle = () => {
                 "focus:outline-hidden"
             )}
         >
-            {isDarkMode ? (
+            {/* {isDarkMode ? (
                 <Sun className="h-6 w-6 text-white-300" />
             ) : (
                 <Moon className="h-6 w-6 text-black-900" />
-            )}
+            )} */}
         </button>
     );
 };
