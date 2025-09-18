@@ -58,10 +58,10 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           {/* Contact Info */}
           <div className="space-y-8 ">
-            <h3 className="text-2xl font-semibold mb-6 ml-8">Contact Information</h3>
+            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
             <div className="space-y-8">
-              <div className="flex items-start space-x-4 mt-10 justify-center">
+              <div className="flex items-start justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
@@ -75,7 +75,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-5 justify-center">
+              <div className="flex items-start justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
@@ -89,7 +89,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 justify-center">
+              <div className="flex items-start justify-center">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
@@ -102,7 +102,7 @@ export const ContactSection = () => {
               </div>
             </div>
             {/* Contact w/ me */}
-            <div className="pt-8 ml-8">
+            <div className="pt-8 ">
               <h4 className="font-medium mb-4">Contact With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="https://www.facebook.com/maltika.bn/" target="_blank">
