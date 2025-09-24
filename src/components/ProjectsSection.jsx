@@ -12,6 +12,33 @@ const projects = [
     },
     {
         id: 2,
+        title: "Web To-fo list",
+        description: "To do list with HTML CSS and JavaScript",
+        image: "/projects/todolist.png",
+        tags: ["HTML","CSS","JavaScript"],
+        demoUrl:"https://maltika.github.io/To-do_list/",
+        githubUrl: "https://github.com/maltika/To-do_list",
+    },
+    {
+        id: 3,
+        title: "Instakawa App",
+        description: "A Flutter mobile app inspired by Instagram, redesigned with a cute and appealing interface.",
+        image: "./projects/Instakawaapp.png",
+        tags: ["flutter"],
+        demoUrl:"#",
+        githubUrl: "https://github.com/maltika/project_subject_mobile",
+    },
+    {
+        id: 4,
+        title: "Ai-Quran App",
+        description: "A Flutter-based mobile app thesis project that helps users practice Quran reading. Features include learning letters, vowels, and basic surahs in a gamified experience with XP and coins, while AI ensures accurate recitation.",
+        image: "./projects/aiquranapp.jpg",
+        tags: ["flutter"],
+        demoUrl:"#",
+        githubUrl: "https://github.com/maltika/app_ai_quran.git",
+    },
+    {
+        id: 5,
         title: " Hackathon 2025,   “Trust in Tech: AI-Power and KYC for Smart Public Services” ",
         description: "Showcased skills in problem-solving, UI/UX design, and teamwork.",
         image: "/projects/certification_cdg.jpg",
@@ -20,7 +47,7 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 3,
+        id: 6,
         title: "IT Career Camp 2025 : Tokio Marine Life Insurance (Thailand) PCL",
         description: "Served as UX/UI Designer, responsible for design and team collaboration.",
         image: "/projects/hackathon_tokiomaria.jpg",
@@ -34,12 +61,8 @@ export const ProjectsSection = () => {
     return (
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    {" "}
-                    Featured
-                    <span className="text-primary">
-                        Projects
-                    </span>
+                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    My <span className="text-primary">Projects</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
                     Here are some of my projects. Each project was carefully
