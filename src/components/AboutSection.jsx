@@ -58,7 +58,7 @@ export const AboutSection = () => {
                 Bachelor of Engineering, Electronics Engineering Technology Computer
               </p>
               <div className="flex items-center justify-between mt-4 text-sm text-muted-foreground">
-                <span className="flex items-center gap-1">📅 2022 – Present</span>
+                <span className="flex items-center gap-1"> 2022 – Present</span>
                 <span className="font-bold text-primary">GPA: 3.16</span>
               </div>
             </div>
