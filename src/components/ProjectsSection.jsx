@@ -33,12 +33,30 @@ const projects = [
         title: "Ai-Quran App",
         description: "A Flutter-based mobile app thesis project that helps users practice Quran reading. Features include learning letters, vowels, and basic surahs in a gamified experience with XP and coins, while AI ensures accurate recitation.",
         image: "./projects/aiquranapp.jpg",
-        tags: ["flutter"],
+        tags: ["flutter","Firebase"],
         demoUrl:"./projects/app_ai_quran_game_demo.mp4",
         githubUrl: "https://github.com/maltika/app_ai_quran.git",
     },
     {
         id: 5,
+        title: "Kakeru",
+        description: "A personal manga and novel tracking web app built with Next.js and Firebase. Designed to manage and monitor reading progress in a clean, minimal interface.",
+        image: "./projects/kakeru.jpg",
+        tags: ["ReactJS","Firebase"],
+        demoUrl:"https://kakeru-five.vercel.app/login",
+        githubUrl: "https://github.com/maltika/kakeru.git",
+    },
+    {
+        id: 6,
+        title: "lom-la-lai",
+        description: "A personal book fair planning web app built with HTML, CSS, JavaScript, and Google Apps Script. Designed to manage wishlists, track budgets, and plan booth visits in a clean, minimal interface.",
+        image: "./projects/lomlalai.jpg",
+        tags: ["flutter","Firebase"],
+        demoUrl:"https://lomlalai.vercel.app/",
+        githubUrl: "https://github.com/maltika/Lom-La-Lai.git",
+    },
+    {
+        id: 7,
         title: " Hackathon 2025,   “Trust in Tech: AI-Power and KYC for Smart Public Services” ",
         description: "Showcased skills in problem-solving, UI/UX design, and teamwork.",
         image: "/projects/certification_cdg.jpg",
@@ -47,7 +65,7 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 6,
+        id: 8,
         title: "IT Career Camp 2025 : Tokio Marine Life Insurance (Thailand) PCL",
         description: "Served as UX/UI Designer, responsible for design and team collaboration.",
         image: "/projects/hackathon_tokiomaria.jpg",
@@ -64,7 +82,7 @@ export const ProjectsSection = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                     My <span className="text-primary">Projects</span>
                 </h2>
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                <p className="text-muted-foreground mb-12 max-w-2xl leading-relaxed space-y-1 text-left">
                     Here are some of my projects. Each project was carefully
                     crafted with attention to detail, performance, and user experience.
                 </p>

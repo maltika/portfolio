@@ -1,68 +1,80 @@
-import { Briefcase, Code, User, GraduationCap } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+
+        <h2 className="font-display text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          {/* Left: Profile Summary + Buttons */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              I enjoy building modern, responsive, and user-friendly web applications. 
-            </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
-            {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
-              <a href="#contact" className="cosmic-button text-center">
+          {/* Left: Passionate window + buttons */}
+          <div className="space-y-4">
+
+            {/* Passionate window card */}
+            <div className="border-2 border-primary overflow-hidden">
+              <div className="bg-primary text-primary-foreground px-4 py-2 font-display text-xl tracking-wide flex items-center justify-between">
+                Passionate
+                <button className="text-white hover:opacity-70 transition-opacity text-base leading-none">✕</button>
+              </div>
+              <div className="bg-white p-6 text-left">
+                <p className="text-gray-900 leading-relaxed font-sans">
+                  I enjoy building modern, responsive, and user-friendly web applications.
+                </p>
+              </div>
+            </div>
+
+            {/* Get In Touch button */}
+            <div className="pt-2">
+              <a href="#contact" className="hero-cta w-full text-center block text-xl">
                 Get In Touch
               </a>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+            {/* View Resume / View Transcript */}
+            <div className="flex gap-4">
               <a
                 href="./myPDF/maltika_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="hero-cta flex-1 text-center text-base bg-white text-gray-900 border-primary shadow-none hover:bg-gray-100"
               >
                 View Resume
               </a>
-
               <a
                 href="./myPDF/maltika_transcript.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="hero-cta flex-1 text-center text-base bg-white text-gray-900 border-primary shadow-none hover:bg-gray-100"
               >
                 View Transcript
               </a>
             </div>
           </div>
 
-          {/* Right: Education */}
-          <div className="space-y-6">
-            <div className="flex items-center gap-3">
-              <GraduationCap className="h-7 w-7 text-primary" />
-              <h3 className="text-2xl font-semibold">Education</h3>
+          {/* Right: Education window */}
+          <div className="border-2 border-primary overflow-hidden">
+            <div className="bg-primary text-primary-foreground px-4 py-2 font-display text-xl tracking-wide flex items-center justify-between">
+              Education
+              <button className="text-white hover:opacity-70 transition-opacity text-base leading-none">✕</button>
             </div>
-
-            <div className="p-6 rounded-xl bg-card shadow-lg border border-border/40 hover:shadow-xl transition-all">
-              <p className="text-lg font-semibold text-foreground">
+            <div className="bg-white p-6 space-y-3 text-left">
+              <p className="text-2xl font-semibold text-primary leading-snug font-display font-sans">
                 King Mongkut's University of Technology North Bangkok
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600 text-base leading-relaxed font-sans">
                 Bachelor of Engineering, Electronics Engineering Technology Computer
               </p>
-              <div className="flex items-center justify-between mt-4 text-sm text-muted-foreground">
-                <span className="flex items-center gap-1"> 2022 – Present</span>
-                <span className="font-bold text-primary">GPA: 3.16</span>
+              <div className="flex items-center justify-between pt-4 text-sm border-t border-gray-200">
+                <span className="text-gray-900 font-sans text-base">2022–Present</span>
+                <span className="font-bold text-primary font-display text-lg font-sans">GPA: 3.20</span>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

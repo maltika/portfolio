@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-display: "Tiny5", system-ui, sans-serif;
+
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -38,7 +41,7 @@
     }
   }
   @keyframes fade-in {
-    form {
+    from {
       opacity: 0;
       transform: translateY(20px);
     }
@@ -93,9 +96,29 @@
   html {
     @apply scroll-smooth;
   }
-  body{
-    @apply bg-background text-foreground transition-colors duration-300;
+  body {
+    @apply bg-background text-foreground font-sans transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  nav,
+  nav a,
+  button,
+  label,
+  a.rounded-full {
+    @apply font-display;
+  }
+
+  p,
+  textarea,
+  input {
+    @apply font-sans;
   }
 }
 
@@ -137,9 +160,16 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-display font-medium
           transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
           hover:scale-105 active:scale-95;
+}
+
+@utility hero-cta {
+  @apply inline-block px-8 py-2.5 rounded-lg bg-primary text-primary-foreground font-display
+          border-2 border-white tracking-wide
+          transition-all duration-300 shadow-[0_0_16px_rgba(139,92,246,0.45)]
+          hover:brightness-110 active:scale-95;
 }
 @utility star {
   @apply absolute rounded-full bg-white;
