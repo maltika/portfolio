@@ -51,7 +51,7 @@ const projects = [
         title: "lom-la-lai",
         description: "A personal book fair planning web app built with HTML, CSS, JavaScript, and Google Apps Script. Designed to manage wishlists, track budgets, and plan booth visits in a clean, minimal interface.",
         image: "./projects/lomlalai.jpg",
-        tags: ["flutter","Firebase"],
+        tags: ["HTML","CSS","JavaScript","Google Apps Script"],
         demoUrl:"https://lomlalai.vercel.app/",
         githubUrl: "https://github.com/maltika/Lom-La-Lai.git",
     },
