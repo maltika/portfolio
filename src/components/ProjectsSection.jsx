@@ -6,8 +6,8 @@ const projects = [
         title: "Internship Tokio Marine Life Insurance (Thailand) PCL.",
         description: "Developed Front-end features and performed bug fixing based on customer requirements. Collaborated on UX/UI design within an Agile development process.",
         image: "/projects/Intern.png",
-        tags: ["Internship","React Native","figma"],
-        demoUrl:"./projects/PosterInternship.png",
+        tags: ["Internship", "React Native", "figma"],
+        demoUrl: "./projects/PosterInternship.png",
         githubUrl: "#",
     },
     {
@@ -15,8 +15,8 @@ const projects = [
         title: "Maltiks's portfolio",
         description: "Personal Portfolio with ReactJS and TailwindCSS",
         image: "/projects/project1.png",
-        tags: ["ReactJS","TailwindCSS"],
-        demoUrl:"https://portfolio-maltika.vercel.app/",
+        tags: ["ReactJS", "TailwindCSS"],
+        demoUrl: "https://portfolio-maltika.vercel.app/",
         githubUrl: "https://github.com/maltika/portfolio.git",
     },
     {
@@ -24,8 +24,8 @@ const projects = [
         title: "Web To-fo list",
         description: "To do list with HTML CSS and JavaScript",
         image: "/projects/todolist.png",
-        tags: ["HTML","CSS","JavaScript"],
-        demoUrl:"https://maltika.github.io/To-do_list/",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://maltika.github.io/To-do_list/",
         githubUrl: "https://github.com/maltika/To-do_list",
     },
     {
@@ -34,7 +34,7 @@ const projects = [
         description: "A Flutter mobile app inspired by Instagram, redesigned with a cute and appealing interface.",
         image: "./projects/Instakawaapp.png",
         tags: ["flutter"],
-        demoUrl:"./projects/instakawa_demo.mp4",
+        demoUrl: "./projects/instakawa_demo.mp4",
         githubUrl: "https://github.com/maltika/project_subject_mobile",
     },
     {
@@ -42,8 +42,8 @@ const projects = [
         title: "Ai-Quran App",
         description: "A Flutter-based mobile app thesis project that helps users practice Quran reading. Features include learning letters, vowels, and basic surahs in a gamified experience with XP and coins, while AI ensures accurate recitation.",
         image: "./projects/aiquranapp.jpg",
-        tags: ["flutter","Firebase"],
-        demoUrl:"./projects/app_ai_quran_game_demo.mp4",
+        tags: ["flutter", "Firebase"],
+        demoUrl: "./projects/app_ai_quran_game_demo.mp4",
         githubUrl: "https://github.com/maltika/app_ai_quran.git",
     },
     {
@@ -51,8 +51,8 @@ const projects = [
         title: "Kakeru",
         description: "A personal manga and novel tracking web app built with Next.js and Firebase. Designed to manage and monitor reading progress in a clean, minimal interface.",
         image: "./projects/kakeru.jpg",
-        tags: ["ReactJS","Firebase"],
-        demoUrl:"https://kakeru-five.vercel.app/login",
+        tags: ["ReactJS", "Firebase"],
+        demoUrl: "https://kakeru-five.vercel.app/login",
         githubUrl: "https://github.com/maltika/kakeru.git",
     },
     {
@@ -60,8 +60,8 @@ const projects = [
         title: "lom-la-lai",
         description: "A personal book fair planning web app built with HTML, CSS, JavaScript, and Google Apps Script. Designed to manage wishlists, track budgets, and plan booth visits in a clean, minimal interface.",
         image: "./projects/lomlalai.jpg",
-        tags: ["HTML","CSS","JavaScript","Google Apps Script"],
-        demoUrl:"https://lomlalai.vercel.app/",
+        tags: ["HTML", "CSS", "JavaScript", "Google Apps Script"],
+        demoUrl: "https://lomlalai.vercel.app/",
         githubUrl: "https://github.com/maltika/Lom-La-Lai.git",
     },
     {
@@ -69,8 +69,8 @@ const projects = [
         title: " Hackathon 2025,   “Trust in Tech: AI-Power and KYC for Smart Public Services” ",
         description: "Showcased skills in problem-solving, UI/UX design, and teamwork.",
         image: "/projects/certification_cdg.jpg",
-        tags: ["Hackathon","UX/UI Designer","figma"],
-        demoUrl:"https://www.figma.com/design/RDNLj5eOMKHn1upUYBcjs2/FiGo?node-id=0-1&t=j6rGdLBwPv2yk5lq-1",
+        tags: ["Hackathon", "UX/UI Designer", "figma"],
+        demoUrl: "https://www.figma.com/design/RDNLj5eOMKHn1upUYBcjs2/FiGo?node-id=0-1&t=j6rGdLBwPv2yk5lq-1",
         githubUrl: "#",
     },
     {
@@ -78,8 +78,8 @@ const projects = [
         title: "IT Career Camp 2025 : Tokio Marine Life Insurance (Thailand) PCL",
         description: "Served as UX/UI Designer, responsible for design and team collaboration.",
         image: "/projects/hackathon_tokiomaria.jpg",
-        tags: ["Hackathon","UX/UI Designer","figma"],
-        demoUrl:"https://www.figma.com/design/Pc6VSukJ36RJNfVsZqOXAq/hackthon?node-id=0-1&t=Wd0naiK4D6FASsXp-1",
+        tags: ["Hackathon", "UX/UI Designer", "figma"],
+        demoUrl: "https://www.figma.com/design/Pc6VSukJ36RJNfVsZqOXAq/hackthon?node-id=0-1&t=Wd0naiK4D6FASsXp-1",
         githubUrl: "#",
     },
 ];
@@ -89,20 +89,20 @@ export const ProjectsSection = () => {
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    My <span className="text-primary">Projects</span>
+                    Projects & <span className="text-primary">Experience</span>
                 </h2>
                 <p className="text-muted-foreground mb-12 max-w-2xl leading-relaxed space-y-1 text-left">
                     Here are some of my projects. Each project was carefully
                     crafted with attention to detail, performance, and user experience.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projects.map((project,key) => (
+                    {projects.map((project, key) => (
                         <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             <div className="h-48 overflow-hidden">
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
+                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                             </div>
                             <div className="p-6">
-                                <div className="flex flex-wrap gap-2 mb-4"> 
+                                <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags.map((tag) => (
                                         <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground ">
                                             {tag}
@@ -114,14 +114,14 @@ export const ProjectsSection = () => {
                                     <p className="text-muted-foreground text-sm mb-4"> {project.description} </p>
                                     <div className="flex justify-between items-center">
                                         <div className="flex space-x-3">
-                                            <a 
-                                                href={project.demoUrl} 
+                                            <a
+                                                href={project.demoUrl}
                                                 target="_blank"
                                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <ExternalLink size={20} />
                                             </a>
-                                            <a 
-                                                href={project.githubUrl}  
+                                            <a
+                                                href={project.githubUrl}
                                                 target="_blank"
                                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <Github size={20} />
@@ -134,7 +134,7 @@ export const ProjectsSection = () => {
                     ))}
                 </div>
                 <div className="text-center mt-12">
-                    <a 
+                    <a
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                         target="_blank"
                         href="https://github.com/maltika"
