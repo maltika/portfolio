@@ -45,7 +45,7 @@ export const AboutSection = () => {
                 View Resume
               </a>
               <a
-                href="./myPDF/maltika_transcript.pdf"
+                href="./myPDF/maltika_transcript-unofficial.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero-cta flex-1 text-center text-base bg-white text-gray-900 border-primary shadow-none hover:bg-gray-100"
