@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
     {
+        id: 0,
+        title: "Internship Tokio Marine Life Insurance (Thailand) PCL.",
+        description: "Developed Front-end features and performed bug fixing based on customer requirements. Collaborated on UX/UI design within an Agile development process.",
+        image: "/projects/Intern.png",
+        tags: ["Internship","React Native","figma"],
+        demoUrl:"./projects/PosterInternship.png",
+        githubUrl: "#",
+    },
+    {
         id: 1,
         title: "Maltiks's portfolio",
         description: "Personal Portfolio with ReactJS and TailwindCSS",
