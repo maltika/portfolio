@@ -15,10 +15,7 @@ export const HeroSection = () => {
         </h1>
 
         <p className="font-sans text-lg md:text-lg text-foreground leading-relaxed max-w-2xl mb-10 opacity-0 animate-fade-in-delay-3">
-          Welcome to my portfolio! I&apos;m Maltika, a fourth-year university
-          student with a passion for web development and front-end design. Here,
-          you&apos;ll find my projects, skills, and experiences that reflect my
-          journey in the tech field.
+          Welcome to my portfolio! I'm a Front-end Developer & UI/UX Designer dedicated to crafting beautiful, user-centric web applications. Check out my latest work!
         </p>
 
         <div className="flex justify-center opacity-0 animate-fade-in-delay-4 text-xl">
