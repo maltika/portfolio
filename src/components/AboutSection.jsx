@@ -69,7 +69,7 @@ export const AboutSection = () => {
                 Bachelor of Engineering, Electronics Engineering Technology Computer
               </p>
               <div className="flex items-center justify-between pt-4 text-sm border-t border-gray-200">
-                <span className="text-gray-900 font-sans text-base">2022–Present</span>
+                <span className="text-gray-900 font-sans text-base">2022–2026</span>
                 <span className="font-bold text-primary font-display text-lg font-sans">GPA: 3.20</span>
               </div>
             </div>
