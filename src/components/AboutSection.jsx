@@ -37,7 +37,7 @@ export const AboutSection = () => {
             {/* View Resume / View Transcript */}
             <div className="flex gap-4">
               <a
-                href="./myPDF/maltika_Resume.pdf"
+                href="./myPDF/Maltika_Boonmalert_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero-cta flex-1 text-center text-base bg-white text-gray-900 border-primary shadow-none hover:bg-gray-100"
