@@ -27,15 +27,6 @@ const projects = [
     {
         id: 3,
         type: "both",
-        title: "Instakawa App",
-        description: "A Flutter mobile app inspired by Instagram, redesigned with a cute kawaii interface and smooth navigation.", image: "./projects/Instakawaapp.png",
-        tags: ["flutter"],
-        demoUrl: "./projects/instakawa_demo.mp4",
-        githubUrl: "https://github.com/maltika/project_subject_mobile",
-    },
-    {
-        id: 4,
-        type: "both",
         title: "Kakeru",
         description: "A manga and novel tracking web app to manage reading progress, organize collections, and keep reading history in a minimal interface.",
         image: "./projects/kakeru.jpg",
@@ -44,7 +35,7 @@ const projects = [
         githubUrl: "https://github.com/maltika/kakeru.git",
     },
     {
-        id: 5,
+        id: 4,
         type: "both",
         title: "lom-la-lai",
         description: "A book fair planning app to manage wishlists, track budgets, plan booth visits, and organize your perfect book fair experience.", image: "./projects/lomlalai.jpg",
@@ -53,8 +44,34 @@ const projects = [
         githubUrl: "https://github.com/maltika/Lom-La-Lai.git",
     },
     {
+        id: 5,
+        type: "both",
+        title: "photobooth online",
+        description: "Built an online photo booth (HTML, CSS, JavaScript) with frame selection, webcam capture, image customization, and download.", image: "./projects/photobooth_online.jpg",
+        tags: ["HTML", "CSS", "JavaScript","AI Tools"],
+        githubUrl: "https://github.com/maltika/photobooth_online.git",
+    },
+    {
         id: 6,
-        type: "dev",
+        type: "both",
+        title: "Instakawa App",
+        description: "A Flutter mobile app inspired by Instagram, redesigned with a cute kawaii interface and smooth navigation.", image: "./projects/Instakawaapp.png",
+        tags: ["flutter"],
+        demoUrl: "./projects/instakawa_demo.mp4",
+        githubUrl: "https://github.com/maltika/project_subject_mobile",
+    },
+    {
+        id: 7,
+        type: "both",
+        title: "Yaklaew",
+        description: "Built a web forum with post management and role-based access control (Admin/Member) including moderation and ban features.", image: "./projects/webboard.png",
+        tags: ["HTML", "CSS", "PHP"],
+        githubUrl: "https://github.com/maltika/webboard.git",
+    },
+    
+    {
+        id: 8,
+        type: "both",
         title: "Maltiks's portfolio",
         description: "Personal portfolio built with ReactJS and TailwindCSS, featuring smooth animations and a clean, responsive layout.",
         image: "/projects/project1.png",
@@ -63,7 +80,7 @@ const projects = [
         githubUrl: "https://github.com/maltika/portfolio.git",
     },
     {
-        id: 7,
+        id: 9,
         type: "dev",
         title: "Web To-fo list",
         description: "A simple to-do list app built with HTML, CSS, and JavaScript with add, delete, and complete task features.",
@@ -73,7 +90,7 @@ const projects = [
         githubUrl: "https://github.com/maltika/To-do_list",
     },
     {
-        id: 8,
+        id: 10,
         type: "design",
         title: "CDG Hackathon 2025, 'Trust in Tech: AI-Power and KYC for Smart Public Services'",
         description: "Showcased skills in problem-solving, UI/UX design, and teamwork.",
@@ -83,7 +100,7 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 9,
+        id: 11,
         type: "design",
         title: "IT Career Camp 2025 : Tokio Marine Life Insurance (Thailand) PCL",
         description: "Served as UX/UI Designer, responsible for design and team collaboration.",
