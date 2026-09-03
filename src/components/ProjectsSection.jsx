@@ -49,7 +49,7 @@ const projects = [
         title: "photobooth online",
         description: "Built an online photo booth (HTML, CSS, JavaScript) with frame selection, webcam capture, image customization, and download.", image: "./projects/photobooth_online.jpg",
         tags: [ "React", "Canvas API" , "react-webcam" , "AI Tools"],
-        demoUrl: "https://photobooth-online-45ec-delta.vercel.app/",
+        demoUrl: "https://photobooth-online-one.vercel.app/",
         githubUrl: "https://github.com/maltika/photobooth_online.git",
     },
     {
