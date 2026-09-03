@@ -48,7 +48,7 @@ const projects = [
         type: "both",
         title: "photobooth online",
         description: "Built an online photo booth (HTML, CSS, JavaScript) with frame selection, webcam capture, image customization, and download.", image: "./projects/photobooth_online.jpg",
-        tags: ["HTML", "CSS", "JavaScript","AI Tools"],
+        tags: [ "React", "Canvas API" , "react-webcam" , "AI Tools"],
         githubUrl: "https://github.com/maltika/photobooth_online.git",
     },
     {
